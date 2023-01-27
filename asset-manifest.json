@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/sneakers/static/css/main.081ff0e4.css",
+    "main.js": "/sneakers/static/js/main.0f808bf2.js",
+    "static/media/poster.png": "/sneakers/static/media/poster.715cb22c726438c65755.png",
+    "static/media/complete.jpg": "/sneakers/static/media/complete.5a9a5dafb2a937cef319.jpg",
+    "static/media/6.jpg": "/sneakers/static/media/6.da0925da5c740bc81654.jpg",
+    "static/media/10.jpg": "/sneakers/static/media/10.5a9988dc325c5e297566.jpg",
+    "static/media/5.jpg": "/sneakers/static/media/5.b1a8c443c40483801485.jpg",
+    "static/media/11.jpg": "/sneakers/static/media/11.8409cd1538e4aee816f3.jpg",
+    "static/media/8.jpg": "/sneakers/static/media/8.8409cd1538e4aee816f3.jpg",
+    "static/media/3.jpg": "/sneakers/static/media/3.c617179012cdc8d91fd6.jpg",
+    "static/media/2.jpg": "/sneakers/static/media/2.b859153f245f7d0763b9.jpg",
+    "static/media/1.jpg": "/sneakers/static/media/1.48976ec092822f4751fd.jpg",
+    "static/media/4.jpg": "/sneakers/static/media/4.14b9d1555760ed61d24b.jpg",
+    "static/media/9.jpg": "/sneakers/static/media/9.115c0e137939ec83db6e.jpg",
+    "static/media/7.jpg": "/sneakers/static/media/7.3d67b861910cb673958f.jpg",
+    "static/media/cartPlus.svg": "/sneakers/static/media/cartPlus.890c21e6e092e231b04d7f8d3b23767a.svg",
+    "static/media/heart.svg": "/sneakers/static/media/heart.31c528b014374dd8bafb45d68779796e.svg",
+    "static/media/heart-pink.svg": "/sneakers/static/media/heart-pink.36b0297aa48d897d14d2989b98395ee4.svg",
+    "static/media/account.svg": "/sneakers/static/media/account.381202f7e3edbc1a00b14fbd5e529a32.svg",
+    "static/media/cart.svg": "/sneakers/static/media/cart.5113b08fb682dc25f3856ef704a6c05d.svg",
+    "index.html": "/sneakers/index.html",
+    "static/media/loupe.svg": "/sneakers/static/media/loupe.48c52bf5d459537e27c07f88eb08c050.svg",
+    "static/media/plus.svg": "/sneakers/static/media/plus.70180d63430bba1c4d0d633d9ef09c0b.svg",
+    "main.081ff0e4.css.map": "/sneakers/static/css/main.081ff0e4.css.map",
+    "main.0f808bf2.js.map": "/sneakers/static/js/main.0f808bf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.081ff0e4.css",
+    "static/js/main.0f808bf2.js"
+  ]
+}
