@@ -5,7 +5,6 @@ import heart from "../../svg/heart.svg";
 import account from "../../svg/account.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 export const Header = ({ setCartActive }) => {
   const navigate = useNavigate();

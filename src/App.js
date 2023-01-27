@@ -3,7 +3,7 @@ import "react-loading-skeleton/dist/skeleton.css";
 import { Home } from "./pages/Home";
 import { Favorite } from "./pages/Favorite";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { Cart } from "./components/Cart/Cart";
@@ -34,6 +34,10 @@ function App() {
     <Router>
       {showCart && <Cart />}
       <Routes>
+        <Route
+          path="*"
+          element={<Home />}
+        />
         <Route
           path="/"
           element={<Home />}></Route>

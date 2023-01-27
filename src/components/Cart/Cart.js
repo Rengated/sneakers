@@ -3,6 +3,7 @@ import { CartCard } from "../CartCard/CartCard";
 import { WithoutData } from "../WithoutData/WithoutData";
 import styles from "./cart.module.css";
 import box from "../../img/box.png";
+import complete from "../../img/complete.jpg";
 import { useState } from "react";
 
 export const Cart = () => {
@@ -68,7 +69,10 @@ export const Cart = () => {
                   "Ваш заказ #18 скоро будет передан курьерской доставке"
                 }
                 onClick={toggleCart}>
-                <img src={box} />
+                <img
+                  src={complete}
+                  alt="complete"
+                />
               </WithoutData>
             )}
           </>
