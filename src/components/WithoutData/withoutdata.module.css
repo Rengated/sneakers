@@ -1,0 +1,41 @@
+.title{
+    margin-top: 24px;
+    margin-bottom: 11px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.subtitle{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 290px;
+    margin-bottom: 41px;
+
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 17px 30px;
+    background: #9DD458;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 18px;
+    cursor: pointer;
+
+}
+
+ 
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #EAEAEA;
+    min-height: 100vh;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.poster{
+    margin-top: 45px;
+    padding-top: 16px;
+    padding-bottom: 52px;
+    margin-bottom: 40px;
+    width: 100%;
+    background-image: url('../img//poster.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.poster_content{
+    padding-left: 61px;
+}
+
+@media (max-width: 577px){
+    .poster_content{padding-left: 30px;}
+}
+
+.poster_text{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #8BB43C;
+    max-width: 240px;
+    margin-bottom: 10px;
+}
+
+.poster_text span{
+    color: black;
+}
+.adidas{
+    margin-left: 20px;
+    margin-bottom: 32px;
+}

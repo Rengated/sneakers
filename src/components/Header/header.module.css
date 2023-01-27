@@ -1,0 +1,61 @@
+.header{
+    display: flex;
+    padding-left: 45px;
+    padding-top: 43px;
+    padding-bottom: 44px;
+    padding-right: 63px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+
+.img{
+    margin-right: 16px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 577px){
+    .title, .subtitle{
+        display: none;
+    }
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.cart{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.cart_price{
+    margin-left: 10px;
+}
+
+.heart{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.cart_icon{
+    cursor: pointer;
+}
+.account{
+    cursor: pointer;
+}

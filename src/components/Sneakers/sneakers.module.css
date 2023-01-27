@@ -1,0 +1,29 @@
+.top{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 577px){
+    .top{
+        flex-direction: column;
+    }
+}
+
+.title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: black;
+}
+
+.content{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    padding-bottom: 20px;
+}
+ 

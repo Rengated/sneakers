@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #F3F3F3;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card:last-child{
+    margin-bottom: 0px;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 150px;
+    margin-bottom: 8px;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.delete{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    color: #D3D3D3;
+
+}
+
+.image{
+    width: 70px;
+}
